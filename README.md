@@ -11,6 +11,11 @@ Our policy can be expressed by the following formula, with the weights rounded t
 
 This policy achieves an average score of 3300 over 1200 evaluations, using only 23 weights.
 
+The structure of the final network. Yellow nodes represent input nodes, and blue nodes represent output nodes.
+<div style="text-align: center;">
+     <img src="./results/network.svg" alt="Visualization of the policy"  width="400" height="400">
+</div>
+
 ## Test Our Policy
 Please check `./src/policy.ipynb` for testing the policy.
 
