@@ -1,0 +1,117 @@
+{
+    "algorithm": {
+        "species": {
+            "genome": {
+                "num_inputs": "17",
+                "num_outputs": "6",
+                "input_idx": "[ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]",
+                "output_idx": "[17 18 19 20 21 22]",
+                "max_nodes": "23",
+                "max_conns": "102",
+                "node_gene": {
+                    "bias_init_mean": "0",
+                    "bias_init_std": "1",
+                    "bias_mutate_power": "0.15",
+                    "bias_mutate_rate": "0.2",
+                    "bias_replace_rate": "0.015",
+                    "aggregation_default": "0",
+                    "aggregation_options": "(<function Agg.sum at 0x7fb303bc2820>,)",
+                    "aggregation_indices": "[0]",
+                    "aggregation_replace_rate": "0.1",
+                    "activation_default": "0",
+                    "activation_options": "(<function Act.sigmoid at 0x7fb303bdbf70>,)",
+                    "activation_indices": "[0]",
+                    "activation_replace_rate": "0.1"
+                },
+                "conn_gene": {
+                    "weight_init_mean": "0",
+                    "weight_init_std": "1",
+                    "weight_mutate_power": "0.15",
+                    "weight_mutate_rate": "0.2",
+                    "weight_replace_rate": "0.015"
+                },
+                "mutation": {
+                    "conn_add": "0",
+                    "conn_delete": "0",
+                    "node_add": "0",
+                    "node_delete": "0",
+                    "delete_prob_func": "<function create_cosine_decline.<locals>.cosine_func at 0x7fb2c04298b0>"
+                },
+                "crossover": {},
+                "input_transform": "<function normalize_obs at 0x7fb307802a60>",
+                "output_transform": "<function Act.standard_tanh at 0x7fb303be3160>"
+            },
+            "pop_size": "500",
+            "species_size": "10",
+            "compatibility_disjoint": "1.0",
+            "compatibility_weight": "0.4",
+            "max_stagnation": "7",
+            "species_elitism": "2",
+            "spawn_number_change_rate": "0.5",
+            "genome_elitism": "0",
+            "survival_threshold": "0.1",
+            "min_species_size": "1",
+            "compatibility_threshold": "1.0",
+            "species_arange": "[0 1 2 3 4 5 6 7 8 9]",
+            "pool_size": "15",
+            "elite_policy": "<function PotentialElitismPool.__init__.<locals>.clip_elite_policy at 0x7facc415fca0>",
+            "elite_size": "5",
+            "potential_size": "10",
+            "potential_eval_times": "5",
+            "potential_policy": "<function PotentialElitismPool.__init__.<locals>.clip_potential_policy at 0x7fb2c03f4ee0>"
+        },
+        "genome": {
+            "num_inputs": "17",
+            "num_outputs": "6",
+            "input_idx": "[ 0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16]",
+            "output_idx": "[17 18 19 20 21 22]",
+            "max_nodes": "23",
+            "max_conns": "102",
+            "node_gene": {
+                "bias_init_mean": "0",
+                "bias_init_std": "1",
+                "bias_mutate_power": "0.15",
+                "bias_mutate_rate": "0.2",
+                "bias_replace_rate": "0.015",
+                "aggregation_default": "0",
+                "aggregation_options": "(<function Agg.sum at 0x7fb303bc2820>,)",
+                "aggregation_indices": "[0]",
+                "aggregation_replace_rate": "0.1",
+                "activation_default": "0",
+                "activation_options": "(<function Act.sigmoid at 0x7fb303bdbf70>,)",
+                "activation_indices": "[0]",
+                "activation_replace_rate": "0.1"
+            },
+            "conn_gene": {
+                "weight_init_mean": "0",
+                "weight_init_std": "1",
+                "weight_mutate_power": "0.15",
+                "weight_mutate_rate": "0.2",
+                "weight_replace_rate": "0.015"
+            },
+            "mutation": {
+                "conn_add": "0",
+                "conn_delete": "0",
+                "node_add": "0",
+                "node_delete": "0",
+                "delete_prob_func": "<function create_cosine_decline.<locals>.cosine_func at 0x7fb2c04298b0>"
+            },
+            "crossover": {},
+            "input_transform": "<function normalize_obs at 0x7fb307802a60>",
+            "output_transform": "<function Act.standard_tanh at 0x7fb303be3160>"
+        }
+    },
+    "seed": "0",
+    "max_step": "1000",
+    "fitness_target": "50000",
+    "generation_limit": "400",
+    "pop_size": "500",
+    "problem_env": "<multiprocess_gym.MultiProcessEnv object at 0x7fb2c03e5f40>",
+    "best_genome": "None",
+    "best_fitness": "-inf",
+    "generation_timestamp": "None",
+    "batch_pop_transform": "<PjitFunction of <function NEAT.transform at 0x7facc415ff70>>",
+    "algorithm_tell": "<PjitFunction of <bound method NEAT.tell of <algorithm.neat.neat.NEAT object at 0x7facc4104280>>>",
+    "is_save": "True",
+    "save_dir": "../results"
+}
