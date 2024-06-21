@@ -16,6 +16,8 @@ The structure of the final network. Yellow nodes represent input nodes, and blue
      <img src="./results/network.svg" alt="Visualization of the policy"  width="400" height="400">
 </div>
 
+Detailed description are shown in [our report](./reprot.pdf).
+
 ## Test Our Policy
 Please check `./src/policy.ipynb` for testing the policy.
 
