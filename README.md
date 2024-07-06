@@ -5,9 +5,7 @@
     <img src="./results/animation.gif" alt="Visualization of the policy"  width="300" height="300">
 </div>
 
-This is the result for [Interpretable Control Competition at GECCO 2024](https://giorgia-nadizar.github.io/interpretable-control-competition/).
-
-Our policy can be expressed by the following formula, with the weights rounded to two decimal places:
+This is the result for [Interpretable Control Competition at GECCO 2024](https://giorgia-nadizar.github.io/interpretable-control-competition/). Specifcially, our policy can be expressed by the following formula, with the weights rounded to two decimal places:
 
 ![formula](./results/formula.svg)
 
